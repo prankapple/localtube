@@ -1,7 +1,16 @@
-Start-up:
+![logo](public/logo.png)
+# LocalTube
+
+
+## Installing
+You need [NodeJS](https://nodejs.org/en)
+
+Run:
 ```bash
-mkdir local-youtube
-cd local-youtube
-npm init -y
-npm install express ejs sqlite3 multer body-parser express-session bcrypt
+https://github.com/prankapple/localtube.git
+cd localtube
+npm install
+mkdir uploads
+node app.js
 ```
+Done! Go to [LocalTube](http://localhost:3000/)
